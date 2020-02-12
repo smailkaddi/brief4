@@ -7,7 +7,7 @@ body{
 header{
     background-image: url(img/footer.png);
     background-size: cover;
-    height: 450px;
+    height: 650px;
 }
 .logo{
    width: 250px;
@@ -36,7 +36,7 @@ a{
 //    start cont
 .imagescount{
     background-size: cover;
-    height: 200px;
+    height: 300px;
     margin-left: 50%;
     transform: translateX(-50%);
     
@@ -65,4 +65,50 @@ a{
 .images3{
     flex-basis: 33%;
    
+}
+.form{
+    height: 275px;
+    width: 100%;
+}
+.imagadd{
+   position: relative;
+   width: 150px;
+   bottom: -62px;
+   right: 50px;
+}
+.titleform{
+    font-size:25px;
+    text-decoration: underline;
+}
+.input{
+    display: block;
+    height: 550px;
+    width: 100%;
+    margin-top: 0;
+    border-style: solid;
+    border-radius: 20px;
+    
+}
+input{
+    width:82%;
+    height: 40px;
+    position: relative;
+    top: 20%;
+    border-radius: 8px;
+    
+}
+button{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 30%;  
+    border-radius: 8px;
+    background-color:#43086d;
+    color: white;
+
+}
+.text{
+    text-align: left;
+    position: relative;
+    left: 163px;
 }
