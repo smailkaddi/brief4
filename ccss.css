@@ -85,7 +85,6 @@ a {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 20px;
   color: #43086d;
   text-align: center;
 }
