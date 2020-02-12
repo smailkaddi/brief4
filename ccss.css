@@ -2,33 +2,35 @@ body {
   margin: 0;
   padding: 0;
   color: white;
+  font-family: 'Raleway', sans-serif;
 }
 
 header {
   background-image: url(img/footer.png);
   background-size: cover;
   height: 650px;
-}
-
-.logo {
-  width: 250px;
-}
-
-.menu {
-  top: 0px;
-  position: relative;
-  margin: 0;
+  width: 100%;
+  height: 360px;
   display: flex;
   justify-content: center;
   align-items: center;
-  list-style: none;
-  font-size: 25px;
-  top: 50px;
 }
 
-ul li {
-  list-style-type: none;
-  display: inline;
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 25px;
+}
+
+.menu li {
+  margin: 0px 20px;
 }
 
 a {
@@ -36,24 +38,31 @@ a {
   text-decoration: none;
 }
 
+.count {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .imagescount {
   background-size: cover;
   height: 300px;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  width: 200px;
+  height: auto;
 }
 
 .text-ourpodcasts {
-  text-align: center;
   color: #43086d;
   font-size: 25px;
 }
 
 .the-3-PODCASTS {
-  height: 500px;
+  height: auto;
+  width: 100%;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  margin: 20px;
   color: #43086d;
   text-align: center;
 }
@@ -118,4 +127,23 @@ button {
   text-align: left;
   position: relative;
   left: 163px;
+}
+
+footer {
+  background-image: url(img/dt-bg.png);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+footer div i {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 25px;
 }
