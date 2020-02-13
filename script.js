@@ -18,28 +18,27 @@ class Stack {
 
 	}
 
-	pushToList(pname,prname,cat,img){
-		var element = new Element(pname,prname,cat,img);
-		if(this.length==0){
-			this.pointer  = this.tail =  this.head  = element;
-			
-		}else
-		{
-			this.tail.next = element;
-			element.prev = this.tail;
-			this.tail=element;
-			
+	
+	addFirst(pname,prname,cat,img){
+		if (this.head==null) {
+			this.head=this.tail=this.pointer=new Element(pname,prname,cat,img);
 		}
-
-		this.length++;
-		return element;
+		else {
+			let tmp = this.head;
+			this.head = new Element(pname,prname,cat,img);
+			tmp.prev = this.head;
+			this.head.next = tmp;
+		
+		}
 
 	}
 
+
+
 	
 	dispElement(){
-		if(this.pointer){
-			return '<div> <img src="img/'+this.pointer.img +'"><h1>'+ this.pointer.pname + '</h1><h3> by: '+this.pointer.prname+'</h3><h3>Category : '+this.pointer.cat+ '</h3></div>';
+		if(this.head){
+			return '<div> <img src="img/'+this.head.img +'"><h1>'+ this.head.pname + '</h1><h3> by: '+this.head.prname+'</h3><h3>Category : '+this.head.cat+ '</h3></div>';
 		} else return "No Data";
 	}
 
@@ -54,7 +53,7 @@ let stack = new Stack();
 // STACK
 
 function empiler(){
-	stack.pushToList(document.getElementById("pname").value,document.getElementById("prname").value,document.getElementById("cat").value,document.getElementById("imglink").value);
+	stack.addFirst(document.getElementById("pname").value,document.getElementById("prname").value,document.getElementById("cat").value,document.getElementById("imglink").value);
 	printElement();
 	
 }
@@ -64,4 +63,3 @@ function empiler(){
 function printElement(){
 	document.getElementById("the-3-PODCASTS").innerHTML += stack.dispElement();
 }
-
