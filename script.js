@@ -18,7 +18,7 @@ class Stack {
 
 	}
 
-	
+
 	addFirst(pname,prname,cat,img){
 		if (this.head==null) {
 			this.head=this.tail=this.pointer=new Element(pname,prname,cat,img);
@@ -28,14 +28,14 @@ class Stack {
 			this.head = new Element(pname,prname,cat,img);
 			tmp.prev = this.head;
 			this.head.next = tmp;
-		
+
 		}
 
 	}
 
 
 
-	
+
 	dispElement(){
 		if(this.head){
 			return '<div> <img src="img/'+this.head.img +'"><h1>'+ this.head.pname + '</h1><h3> by: '+this.head.prname+'</h3><h3>Category : '+this.head.cat+ '</h3></div>';
@@ -55,7 +55,7 @@ let stack = new Stack();
 function empiler(){
 	stack.addFirst(document.getElementById("pname").value,document.getElementById("prname").value,document.getElementById("cat").value,document.getElementById("imglink").value);
 	printElement();
-	
+
 }
 
 
