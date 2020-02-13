@@ -44,6 +44,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 
 }
 
@@ -70,63 +71,74 @@ a{
     flex-wrap: wrap;
     color:#43086d ;
     text-align: center;
-}
-.images1{
-    flex-basis: 33%;
-}
-.images2{
-    flex-basis: 33%;
+    div {
+        flex-basis: 33%;
     }
-.images3{
-    flex-basis: 33%;
-   
 }
-.form{
-    height: 275px;
-    width: 100%;
-}
-.imagadd{
-   position: relative;
-   width: 150px;
-   bottom: -62px;
-   right: 50px;
-}
-.titleform{
-    font-size:25px;
-    text-decoration: underline;
-}
-.input{
-    display: block;
-    height: 550px;
-    width: 100%;
-    margin-top: 0;
-    border-style: solid;
-    border-radius: 20px;
-    
-}
-input{
-    width:82%;
-    height: 40px;
-    position: relative;
-    top: 20%;
-    border-radius: 8px;
-    
-}
-button{
-    width: 200px;
-    height: 40px;
-    position: relative;
-    top: 30%;  
-    border-radius: 8px;
-    background-color:#43086d;
-    color: white;
 
+
+//form Home
+
+.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+  
+
+    img{
+        width: 150px;
+        height: auto;
+    }
 }
-.text{
-    text-align: left;
-    position: relative;
-    left: 163px;
+.line {
+    background-color: #43086d;
+    height: 3px;
+    width: 100px;
 }
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=button] {
+    width: 200px;
+    background-color: #43086d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=button]:hover {
+    background-color:  #1f0333;
+  }
+
+  .form-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      label {
+          color: #43086d;
+      }
+  }
+  
+  .form {
+    border-radius: 5px;
+    border: solid 1px  #43086d ;
+    width: 50%;
+    padding: 20px;
+    
+  }
+
 
 //footer
 
