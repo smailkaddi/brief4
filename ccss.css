@@ -170,6 +170,17 @@ input[type=button]:hover {
   padding: 20px;
 }
 
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  resize: none;
+  margin: 8px 0;
+}
+
 footer {
   background-image: url(img/dt-bg.png);
   background-size: cover;
@@ -196,5 +207,39 @@ footer div i {
   margin-left: 20px;
   margin-right: 20px;
   font-size: 25px;
+}
+
+.podcast-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.podcast-container h1 {
+  color: #43086d;
+  font-size: 80px;
+}
+
+.podcast-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  padding: 50px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.podcast-container div div {
+  font-size: 20px;
+  line-height: 1.6;
 }
 /*# sourceMappingURL=ccss.css.map */
