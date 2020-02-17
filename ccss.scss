@@ -60,6 +60,7 @@ a{
 .text-ourpodcasts{
     color: #43086d;
     font-size: 25px;
+
 }
 
 // imaeges conti
@@ -200,4 +201,25 @@ footer {
         }
     }
 
+}
+
+.epdesc{
+    width: 50%;
+}
+
+
+.audio-episodes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  100px 0;
+
+    button {
+        background: transparent;
+        border: none;
+        margin: 0 30px;
+        color: #43086d;
+        font-size: 2em;
+        cursor: pointer;
+    }
 }
