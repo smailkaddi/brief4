@@ -96,34 +96,9 @@ function printElement(){
 	document.getElementById("result").innerHTML = stack.dispElement();
 }
 
-let stack1 = new Stack();
-
-stack1.pushToList("The End, with Andy Frisella - MFCEO318","Business / Self development","N/A","https://chtbl.com/track/24EG4/traffic.libsyn.com/secure/mfceoproject/Ep_1_-_12.4.19_Audio.mp3","And now...the final episode of The MFCEO Project podcast (which, by the way, has language and adult humor that is not suitable for kids. Use your brains. Be a good parent.)");
-stack1.pushToList("Foreword to the Final Episode, with Andy Frisella - MFCEO317","Business / Self development","N/A","https://chtbl.com/track/24EG4/traffic.libsyn.com/secure/mfceoproject/12.6.19_Audio.mp3","And now...the final episode of The MFCEO Project podcast (which, by the way, has language and adult humor that is not suitable for kids. Use your brains. Be a good parent.)");
-
-
-function empiler1(){
-	stack1.pushToList(document.getElementById("Ename").value,document.getElementById("categ").value,document.getElementById("guest").value,document.getElementById("eplink").value,document.getElementById("epdesc").value);
-	printElement1();
-
-}
 
 
 
-function Next1(){
-	stack1.next();
-	document.getElementById("result1").innerHTML = stack1.dispElement();
-}
-
-function Prev1(){
-	stack1.previous();
-	document.getElementById("result1").innerHTML = stack1.dispElement();
-
-}
-
-function printElement1(){
-	document.getElementById("result1").innerHTML = stack1.dispElement();
-}
 
 
 
