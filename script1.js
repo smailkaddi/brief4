@@ -66,6 +66,9 @@ class Stack {
 
 
 let stack = new Stack();
+
+
+
 stack.pushToList("#1: Using Social Media To Build Your Business, What Price To Charge and Time Management","Business / fitness","N/A","https://traffic.libsyn.com/secure/briankeanebusiness/Business_Podcast_1.mp3?dest-id=970568","As today’s the first episode, I’ve jumped around on several different topics.I've talked about how to use social media to build your personal or business brand alongside leveraging it for more leads in a 1:1 or online business.I've also gone into how to price your services so you're priced based on on the value you provide and not on the 'commodity/everybody charges that' idea that a lot of trainers adopt. not priced as a commodity.Finally I've covered the difference between being productive (getting a lot of things done) with being busy (having a lot of things to do). I hope you enjoy it.");
 stack.pushToList("#2: How Podcasts Make Money, Instagram or Facebook, Websites and Success Tipping Points","Business / fitness","N/A","https://traffic.libsyn.com/secure/briankeanebusiness/Business_Podcast_2_.mp3?dest-id=970568","I also go into how people buy based off value and not price, my ‘dumb sh*t’ money fund, the desert island question and hitting critical mass on podcasts. Enjoy.Should I use Instagram or Facebook for my business? Do you think a website is necessary nowadays or are click funnels enough? How do free podcasts generate revenue in the initial phase before advertising income? What do you believe was the ultimate tipping point to your success in business?");
 stack.pushToList("#3: Some Of The 'Stupid Taxes' I've Paid Over The Years","Business / fitness","N/A","https://traffic.libsyn.com/secure/briankeanebusiness/Business_Podcast_3__1.mp3?dest-id=970568","Generally when I make any costly business mistakes that cost me a lot of money (or time and energy), I label them as 'stupid tax' I've paid.Hopefully after listening to today's episode, you don't make the same mistakes as me.");
@@ -91,6 +94,35 @@ function Prev(){
 
 function printElement(){
 	document.getElementById("result").innerHTML = stack.dispElement();
+}
+
+let stack1 = new Stack();
+
+stack1.pushToList("The End, with Andy Frisella - MFCEO318","Business / Self development","N/A","https://chtbl.com/track/24EG4/traffic.libsyn.com/secure/mfceoproject/Ep_1_-_12.4.19_Audio.mp3","And now...the final episode of The MFCEO Project podcast (which, by the way, has language and adult humor that is not suitable for kids. Use your brains. Be a good parent.)");
+stack1.pushToList("Foreword to the Final Episode, with Andy Frisella - MFCEO317","Business / Self development","N/A","https://chtbl.com/track/24EG4/traffic.libsyn.com/secure/mfceoproject/12.6.19_Audio.mp3","And now...the final episode of The MFCEO Project podcast (which, by the way, has language and adult humor that is not suitable for kids. Use your brains. Be a good parent.)");
+
+
+function empiler1(){
+	stack1.pushToList(document.getElementById("Ename").value,document.getElementById("categ").value,document.getElementById("guest").value,document.getElementById("eplink").value,document.getElementById("epdesc").value);
+	printElement1();
+
+}
+
+
+
+function Next1(){
+	stack1.next();
+	document.getElementById("result1").innerHTML = stack1.dispElement();
+}
+
+function Prev1(){
+	stack1.previous();
+	document.getElementById("result1").innerHTML = stack1.dispElement();
+
+}
+
+function printElement1(){
+	document.getElementById("result1").innerHTML = stack1.dispElement();
 }
 
 
