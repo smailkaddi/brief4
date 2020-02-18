@@ -68,7 +68,7 @@ let stack1 = new Stack();
 
 stack1.pushToList("The End, with Andy Frisella - MFCEO318","Business / Self development","N/A","https://chtbl.com/track/24EG4/traffic.libsyn.com/secure/mfceoproject/Ep_1_-_12.4.19_Audio.mp3","And now...the final episode of The MFCEO Project podcast (which, by the way, has language and adult humor that is not suitable for kids. Use your brains. Be a good parent.)");
 stack1.pushToList("Foreword to the Final Episode, with Andy Frisella - MFCEO317","Business / Self development","N/A","https://chtbl.com/track/24EG4/traffic.libsyn.com/secure/mfceoproject/12.6.19_Audio.mp3","And now...the final episode of The MFCEO Project podcast (which, by the way, has language and adult humor that is not suitable for kids. Use your brains. Be a good parent.)");
-stack1.pushToList("epi2","Business / Self development","N/A","https://chtbl.com/track/24EG4/traffic.libsyn.com/secure/mfceoproject/12.6.19_Audio.mp3","And now...the final episode of The MFCEO Project podcast (which, by the way, has language and adult humor that is not suitable for kids. Use your brains. Be a good parent.)");
+stack1.pushToList("What Does It Really Mean To Be Woke?, with Andy Frisella - MFCEO315","Business / Self development","N/A","https://chtbl.com/track/24EG4/traffic.libsyn.com/secure/mfceoproject/9.24.19_Audio.mp3","And now...the final episode of The MFCEO Project podcast (which, by the way, has language and adult humor that is not suitable for kids. Use your brains. Be a good parent.)");
 
 
 function empiler(){
