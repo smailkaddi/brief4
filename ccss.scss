@@ -56,7 +56,6 @@ a{
     height: auto;
 
 }
-
 .text-ourpodcasts{
     color: #43086d;
     font-size: 25px;
@@ -65,6 +64,7 @@ a{
 
 // imaeges conti
 .the-3-PODCASTS{
+    margin-top: 100px;
     height: auto;
     width: 100%;
     display: flex;
@@ -176,9 +176,6 @@ footer {
    }
     
 }
-
-=======
-
 // Business project page
 
 .podcast-container{
@@ -208,8 +205,6 @@ footer {
 .epdesc{
     width: 50%;
 }
-
-
 .audio-episodes {
     display: flex;
     justify-content: center;
@@ -225,4 +220,5 @@ footer {
         cursor: pointer;
     }
 }
+
 

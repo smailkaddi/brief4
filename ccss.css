@@ -59,6 +59,7 @@ a {
 }
 
 .the-3-PODCASTS {
+  margin-top: 100px;
   height: auto;
   width: 100%;
   display: flex;
@@ -136,8 +137,7 @@ textarea {
   width: 100%;
   height: 150px;
   padding: 12px 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 5px;
   resize: none;
   margin: 8px 0;
@@ -161,21 +161,12 @@ footer div i {
   margin-right: 20px;
   font-size: 25px;
 }
-<<<<<<< HEAD
-=======
 
 .podcast-container {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .podcast-container h1 {
@@ -184,13 +175,10 @@ footer div i {
 }
 
 .podcast-container div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   color: black;
   padding: 50px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .podcast-container div div {
@@ -203,15 +191,9 @@ footer div i {
 }
 
 .audio-episodes {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin: 100px 0;
 }
 
@@ -223,5 +205,3 @@ footer div i {
   font-size: 2em;
   cursor: pointer;
 }
-/*# sourceMappingURL=ccss.css.map */
->>>>>>> 03f4cd4a7631289500648ed0d5b24bfcce2a57ad

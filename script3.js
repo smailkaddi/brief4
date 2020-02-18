@@ -66,9 +66,9 @@ class Stack {
 
 let stack2 = new Stack();
 
-stack2.pushToList("The End, with Andy Frisella - MFCEO318","Business / Self development","N/A","https://chtbl.com/track/24EG4/traffic.libsyn.com/secure/mfceoproject/Ep_1_-_12.4.19_Audio.mp3","And now...the final episode of The MFCEO Project podcast (which, by the way, has language and adult humor that is not suitable for kids. Use your brains. Be a good parent.)");
-stack2.pushToList("Foreword to the Final Episode, with Andy Frisella - MFCEO317","Business / Self development","N/A","https://chtbl.com/track/24EG4/traffic.libsyn.com/secure/mfceoproject/12.6.19_Audio.mp3","And now...the final episode of The MFCEO Project podcast (which, by the way, has language and adult humor that is not suitable for kids. Use your brains. Be a good parent.)");
-stack2.pushToList("epi2","Business / Self development","N/A","https://chtbl.com/track/24EG4/traffic.libsyn.com/secure/mfceoproject/12.6.19_Audio.mp3","And now...the final episode of The MFCEO Project podcast (which, by the way, has language and adult humor that is not suitable for kids. Use your brains. Be a good parent.)");
+stack2.pushToList("#1: How I Knew We Were Dangerous ","Business","N/A","https://anchor.fm/s/f39a864/podcast/play/10450176/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-1-18%2F50580627-44100-2-82b77c2715e44.mp3","For today’s episode I sit down with David Griner, creative editor for AdWeek. We talk about VaynerMedia’s Super Bowl commercials and how I knew that we were dangerous. Make sure to hit me up and let me know what you thought!  ");
+stack2.pushToList("#2: You Need to Double Down on What You Like","Business","N/A","https://anchor.fm/s/f39a864/podcast/play/10421607/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-1-17%2F50118845-44100-2-3fa2493b437a2.mp3","Today’s episode is from a talk that I had last week with NFL Football legend Terrell Owens.");
+stack2.pushToList("#3: How I Deal With Two Things At Once","Business","N/A","https://anchor.fm/s/f39a864/podcast/play/10385544/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-1-14%2F49328758-44100-2-1603b08b7bbe1.mp3","Today’s episode is from Jim Stengel’s The CMO Podcast: Super Bowl Edition that we did live in New York. I talk about brand marketing and some of the strategies behind VaynerMedia’s Super Bowl commercials. Make sure to hit me up and let me know what you thought!");
 
 
 function empiler(){
@@ -81,15 +81,15 @@ function empiler(){
 
 function Next(){
 	stack2.next();
-	document.getElementById("result1").innerHTML = stack2.dispElement();
+	document.getElementById("result3").innerHTML = stack2.dispElement();
 }
 
 function Prev(){
 	stack2.previous();
-	document.getElementById("result1").innerHTML = stack2.dispElement();
+	document.getElementById("result3").innerHTML = stack2.dispElement();
 
 }
 
 function printElement(){
-	document.getElementById("result1").innerHTML = stack2.dispElement();
+	document.getElementById("result3").innerHTML = stack2.dispElement();
 }

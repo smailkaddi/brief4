@@ -64,8 +64,12 @@ function printElement(){
 	document.getElementById("the-3-PODCASTS").innerHTML += stack.dispElement();
 }
 
-
-
-
+Splitting({
+	target: '.tiler',
+	by: 'cells',
+	rows: 3,
+	columns: 3,
+	image: true
+  });
 
 
