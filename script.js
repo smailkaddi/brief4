@@ -63,3 +63,9 @@ function empiler(){
 function printElement(){
 	document.getElementById("the-3-PODCASTS").innerHTML += stack.dispElement();
 }
+
+
+
+
+
+

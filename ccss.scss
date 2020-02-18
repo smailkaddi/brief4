@@ -60,6 +60,7 @@ a{
 .text-ourpodcasts{
     color: #43086d;
     font-size: 25px;
+
 }
 
 // imaeges conti
@@ -139,6 +140,17 @@ input[type=text] {
     
   }
 
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    resize: none;
+    margin: 8px 0;
+    
+  }
+
 
 //footer
 
@@ -164,3 +176,53 @@ footer {
    }
     
 }
+
+=======
+
+// Business project page
+
+.podcast-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        color: #43086d;
+        font-size: 80px;
+
+    }
+    div{
+        display: flex;
+        color: black;
+        padding: 50px;
+        flex-wrap: wrap;
+        div{
+            font-size: 20px;
+            line-height: 1.6;
+        }
+    }
+
+}
+
+.epdesc{
+    width: 50%;
+}
+
+
+.audio-episodes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  100px 0;
+
+    button {
+        background: transparent;
+        border: none;
+        margin: 0 30px;
+        color: #43086d;
+        font-size: 2em;
+        cursor: pointer;
+    }
+}
+
