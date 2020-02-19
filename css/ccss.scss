@@ -3,11 +3,11 @@ body{
     padding: 0;
     color: white;
     font-family: 'Raleway', sans-serif;
-    
+
 }
 // start header
 header{
-    background-image: url(img/footer.png);
+    background-image: url(../img/footer.png);
     background-size: cover;
     height: 650px;
     width: 100%;
@@ -61,6 +61,22 @@ a{
     font-size: 25px;
 
 }
+.images {
+    box-shadow: 0 2.8px 2.2px rgba(149, 47, 218, 0.582), 0 6.7px 5.3px rgba(149, 47, 218, 0.582);
+  }
+  
+  .images {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  
+  .images:hover {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+ 
 
 // imaeges conti
 .the-3-PODCASTS{
@@ -156,7 +172,7 @@ input[type=text] {
 //footer
 
 footer {
-    background-image: url(img/dt-bg.png);
+    background-image: url(../img/dt-bg.png);
     background-size: cover;
     width: 100%;
     height: 300px;

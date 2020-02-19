@@ -79,6 +79,23 @@ a {
   font-size: 25px;
 }
 
+.images {
+  -webkit-box-shadow: 0 2.8px 2.2px rgba(149, 47, 218, 0.582), 0 6.7px 5.3px rgba(149, 47, 218, 0.582);
+          box-shadow: 0 2.8px 2.2px rgba(149, 47, 218, 0.582), 0 6.7px 5.3px rgba(149, 47, 218, 0.582);
+}
+
+.images {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.images:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
 .the-3-PODCASTS {
   margin-top: 100px;
   height: auto;

@@ -38,7 +38,7 @@ class Stack {
 
 	dispElement(){
 		if(this.head){
-			return '<div> <img src="img/'+this.head.img +'"><h1>'+ this.head.pname + '</h1><h3> by: '+this.head.prname+'</h3><h3>Category : '+this.head.cat+ '</h3></div>';
+			return '<div class="images" > <img src="img/'+this.head.img +'"><h1>'+ this.head.pname + '</h1><h3> by: '+this.head.prname+'</h3><h3>Category : '+this.head.cat+ '</h3></div>';
 		} else return "No Data";
 	}
 
